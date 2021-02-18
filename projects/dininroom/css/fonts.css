@@ -1,0 +1,21 @@
+/* @font-face {
+	font-family: 'MyriadPro-SemiExt';
+	src: local('../fonts/MyriadPro-SemiExt'),
+		url('../fonts/MyriadPro-SemiExt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+} */
+@font-face {
+	font-family: 'MyriadPro-SemiExt';
+	src: local('../fonts/MyriadPro-LightSemiExt.ttf'),
+		url('../fonts/MyriadPro-LightSemiExt.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: local('../fonts/MyriadPro-Regular'),
+		url('../fonts/MyriadPro-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
