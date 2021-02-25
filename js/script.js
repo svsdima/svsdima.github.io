@@ -86,14 +86,146 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/js/burger.js":
+/*!**************************!*\
+  !*** ./src/js/burger.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const burger = (menuSelector, burgerSelector) => {
+  const menuElem = document.querySelector(menuSelector),
+        burgerElem = document.querySelector(burgerSelector); // menuElem.style.display = "none";
+
+  menuElem.style.opacity = 0;
+  /* Открытие бургера */
+
+  burgerElem.addEventListener('click', e => {
+    e.preventDefault();
+
+    if (menuElem.style.opacity == 0) {
+      // menuElem.style.display = "block";
+      menuElem.style.opacity = 1;
+      menuElem.classList.add('animate__animated', 'animate__slideInLeft');
+      menuElem.classList.remove('animate__slideOutLeft');
+    } else {
+      // menuElem.style.display = "none";
+      menuElem.classList.add('animate__slideOutLeft');
+      menuElem.classList.remove('animate__slideInLeft');
+      menuElem.style.opacity = 0;
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (burger);
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-window.addEventListener('DOMContentLoaded', () => {});
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _progress_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./progress-bar */ "./src/js/progress-bar.js");
+/* harmony import */ var _scrolling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrolling */ "./src/js/scrolling.js");
+/* harmony import */ var _burger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./burger */ "./src/js/burger.js");
+
+
+ // window.onload = function() {
+//     setTimeout(function() {
+//         document.getElementById("preloader_malc").style.opacity = 0;
+//     }, 400);
+// };
+
+window.addEventListener('DOMContentLoaded', () => {
+  Object(_progress_bar__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  Object(_scrolling__WEBPACK_IMPORTED_MODULE_1__["default"])('.pageup');
+  Object(_burger__WEBPACK_IMPORTED_MODULE_2__["default"])('.menu', '.nav__trigger');
+});
+
+/***/ }),
+
+/***/ "./src/js/progress-bar.js":
+/*!********************************!*\
+  !*** ./src/js/progress-bar.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const progressBar = () => {
+  const progress = document.querySelectorAll('.skills__progress-bar');
+  progress.forEach(item => {
+    item.style.width = item.getAttribute('data-done') + '%';
+    item.style.opacity = 1;
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (progressBar);
+
+/***/ }),
+
+/***/ "./src/js/scrolling.js":
+/*!*****************************!*\
+  !*** ./src/js/scrolling.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const scrolling = upSelector => {
+  /* Появление стрелки вверх */
+  const upElem = document.querySelector(upSelector);
+  window.addEventListener('scroll', () => {
+    if (document.documentElement.scrollTop > 500) {
+      upElem.classList.add('animate__animated', 'animate__fadeIn');
+      upElem.classList.remove('animate__fadeOut');
+    } else {
+      upElem.classList.add('animate__fadeOut');
+      upElem.classList.remove('animate__fadeIn');
+    }
+  });
+  /* Скролл при помощи requestAnimationFrame */
+
+  let links = document.querySelectorAll('[href^="#"]'),
+      speed = 0.3;
+  links.forEach(link => {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+      let widthTop = document.documentElement.scrollTop,
+          hash = this.hash,
+          toBlock = document.querySelector(hash).getBoundingClientRect().top,
+          start = null;
+      requestAnimationFrame(step);
+
+      function step(time) {
+        if (start === null) {
+          start = time;
+        }
+
+        let progress = time - start,
+            r = toBlock < 0 ? Math.max(widthTop - progress / speed, widthTop + toBlock) : Math.min(widthTop + progress / speed, widthTop + toBlock);
+        document.documentElement.scrollTo(0, r);
+
+        if (r != widthTop + toBlock) {
+          requestAnimationFrame(step);
+        } else {
+          location.hash = hash;
+        }
+      }
+    });
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (scrolling);
 
 /***/ })
 

@@ -5,46 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Дмитрий Сафронов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="header">
+    <div class="nav__bar">
+        <a href="#" class="nav__trigger">
+            <div class="bars"></div>
+        </a>   
+    </div>
+
+    <nav class="menu">
+        <ul class="menu__list">
+            <li>
+                <a href="#header">
+                    Главная
+                </a>
+            </li>
+            <li>
+                <a href="#skills">
+                    Навыки
+                </a>
+            </li>
+            <li>
+                <a href="#works">
+                    Проекты
+                </a>
+            </li>
+            <li>
+                <a href="#about-me">
+                    <span>Обо мне</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="header" id="header">
         <div class="container">
-            <nav class="menu">
-                <ul class="menu__list">
-                    <li>
-                        <a href="">
-                            Главная
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <span>Обо мне</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Навыки
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            Проекты
-                        </a>
-                    </li>
-                </ul>
-            </nav>
             <div class="header__wrapper">
                 <div class="text">
                     <ul class="social__links">
                         <li class="github">
-                            <a href="#">
+                            <a href="https://github.com/svsdima">
                             <img src="img/social/github-logo.svg" alt="github">
                             </a>
                         </li>
                         <li class="hh">
-                            <a href="#">
+                            <a href="https://hh.ru/resume/bef6593eff08a154a40039ed1f454852306b78">
                             <img src="img/social/min.svg" alt="hh">
                             </a>
                         </li>
@@ -52,65 +60,248 @@
                     <div class="line"></div>
                     <div class="title">
                         <div class="title__header">
-                            <span>Front-End Разработчик</span>
-                            Дмитрий Сафронов <br>
+                            Front-End Разработчик
+                        </div>
+                        <div class="title__subheader">
+                            Дмитрий Сафронов
                         </div>
                         <div class="header-btn">
-                            <a href="#" class="btn">Мои Проекты</a>
+                            <a href="#works" class="btn">Мои Проекты</a>
                         </div>
                     </div>
                 </div>
-                <div class="header__img">
-                    <img src="img/I-am-bw-2.png" alt="i-am">
-                </div>
+<!--                 <div class="header__img">
+                    <img src="img/dmitriy3.png" alt="dmitriy">
+                </div> -->
             </div>
         </div>
     </header>
 
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
             <div class="title">Навыки</div>
             <div class="skills__wrapper">
-                <div class="skills_list">
+                <div class="skills__list">
                     <div class="skills__item">
-                        <img src="" alt="">
+                        <div class="skills__img">
+                            <img src="img/skills/html-5.svg" alt="html-5">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">HTML5</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="75">
+                                75%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">Вёрстка сайта</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img">
+                            <img src="img/skills/css.svg" alt="css">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">CSS3</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="60">
+                                60%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">Стилизация сайта</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img">
+                            <img src="img/skills/javascript.svg" alt="javascript">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">JavaScript</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="30">
+                                30%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">Взаимодействие с сайтом</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img">
+                            <img src="img/skills/react.svg" alt="react">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">React</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="20">
+                                20%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">Библиотека JavaScript</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img sass">
+                            <img src="img/skills/sass1.svg" alt="sass">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">Sass</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="50">
+                                50%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">Препроцессор</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img">
+                            <img src="img/skills/bootstrap.svg" alt="bootstrap">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">Bootstrap</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="40">
+                                40%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">HTML/CSS/JS-Фреймворк</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img">
+                            <img src="img/skills/git.svg" alt="git">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">Git</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="30">
+                                30%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">История изменения файлов</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img gulp">
+                            <img src="img/skills/gulp.svg" alt="gulp">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">Gulp</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="50">
+                                50%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">Сборщик проектов</div>
+                    </div>
+                </div>
+                <div class="skills__list">
+                    <div class="skills__item">
+                        <div class="skills__img">
+                            <img src="img/skills/photoshop.svg" alt="photoshop">
+                        </div>
+                    </div>
+                    <div class="skills__list-wrapper">
+                        <div class="skills__title">Photoshop</div>
+                        <div class="skills__progress">
+                            <div class="skills__progress-bar" data-done="70">
+                                70%
+                            </div>
+                        </div>
+                        <div class="skills__subtitle">Графический редактор</div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="portfolio">
+    <section class="portfolio" id="works">
         <div class="container">
             <div class="title">Проекты</div>
             <div class="portfolio__wrapper">
                 <div class="portfolio__list">
-                    <div class="portfolio__item">
-                        <a href="./projects/gosurf/index.html">
-                            <img src="img/portfolio/go-surf.jpg" alt="go-surf">
-                        </a>
-                        <span class="portfolio__head">Go-surf</span>
-                        <span class="portfolio__subhead">Туры по пляжам для сёрфинга</span>
+                    <div class="portfolio__item item">
+                        <a href="./projects/gosurf/index.html"><img src="img/portfolio/runsmart.jpg" alt="runsmart"></a>
+                        <div class="item__content">
+                            <span class="item__head">Runsmart</span>
+                            <span class="item__subhead">Пульсометры и спортивные часы</span>
+                        </div>
                     </div>
-                    <div class="portfolio__item">
-                        <a href="./projects/dininroom/index.html">
-                            <img src="img/portfolio/dininroom.jpg" alt="dininroom">
-                        </a>
-                        <span class="portfolio__head">Столовая.РУ</span>
-                        <span class="portfolio__subhead">оснащение предприятий питания</span>
+                    <div class="portfolio__item item">
+                        <a href="./projects/gosurf/index.html"><img src="img/portfolio/dininroom.jpg" alt="dininroom"></a>
+                        <div class="item__content">
+                            <span class="item__head">Столовая.РУ</span>
+                            <span class="item__subhead">оснащение предприятий питания</span>
+                        </div>
                     </div>
-                    <div class="portfolio__item">
-                        <a href="./projects/runsmart/index.html">
-                            <img src="img/portfolio/runsmart.jpg" alt="runsmart">
-                        </a>
-                        <span class="portfolio__head">Runsmart</span>
-                        <span class="portfolio__subhead">Пульсометры и спортивные часы</span>
+                    <div class="portfolio__item item">
+                        <a href="./projects/gosurf/index.html"><img src="img/portfolio/go-surf.jpg" alt="go-surf"></a>
+                        <div class="item__content">
+                            <span class="item__head">Go-surf</span>
+                            <span class="item__subhead">Туры по пляжам для сёрфинга</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src="script.js"></script>
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <div class="title">Обо мне</div>
+            <div class="about-me__wrapper">
+                <div class="about-me__img">
+                    <img src="img/dmitriy3.png" alt="dmitriy">
+                </div>
+                <div class="about-me__content">
+                    <div class="about-me__information">
+                        <div class="about-me__header">Персональные данные</div>
+                        <span>Полное имя: Дмитрий Сафронов</span>
+                        <span>День рождения: 6 Июля 1995</span>
+                        <span>Гражданство: Россия</span>
+                        <span>Место проживания: Москва</span>
+                    </div>
+                    <div class="about-me__information">
+                        <div class="about-me__header">Образование</div>
+                        <span>Московский автомобильно-дорожный государственный технический университет (МАДИ)</span>
+                        <span>Факультет: Автомобильный транспорт</span>
+                        <span>Специальность: Сервис транспортных средств</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a href="#header" class="pageup">
+        <svg class="up" viewBox="0 0 26 26" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M26 0H0V26H26V0ZM4.6593 17.7519L13.1233 10.33L21.5873 17.7519L22.9059 16.2481L13.7826 8.24813L13.1233 7.67L12.464 8.24813L3.3407 16.2481L4.6593 17.7519Z" fill="#191e27"/>
+        </svg>
+    </a>
+
+<!--     <div id="preloader_malc" class="preloader_malc">
+
+        <div>
+    
+            Подождите, идет загрузка сайта ...
+    
+        </div>
+    
+    </div> -->
+
+    <script src="js/script.js"></script>
 </body>
 </html>

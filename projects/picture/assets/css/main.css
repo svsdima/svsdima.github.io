@@ -735,7 +735,7 @@ h4 {
 .sizes-wrapper-wrap {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .sizes-block {
   position: relative;
@@ -974,7 +974,7 @@ h4 {
 }
 .consultation .input-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 .consultation input {
@@ -1457,7 +1457,7 @@ h4 {
     margin: 2rem 0 3rem 0;
   }
   .portfolio-wrapper {
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .portfolio-block {
     width: auto;
@@ -1551,7 +1551,7 @@ h4 {
   }
   .sizes-wrapper {
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .sizes-block .sizes-hit {
     left: 6rem;
