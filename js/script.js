@@ -97,29 +97,101 @@
 __webpack_require__.r(__webpack_exports__);
 const burger = (menuSelector, burgerSelector) => {
   const menuElem = document.querySelector(menuSelector),
-        burgerElem = document.querySelector(burgerSelector); // menuElem.style.display = "none";
-
-  menuElem.style.opacity = 0;
+        burgerElem = document.querySelector(burgerSelector);
+  menuElem.style.display = "none";
   /* Открытие бургера */
 
   burgerElem.addEventListener('click', e => {
     e.preventDefault();
 
-    if (menuElem.style.opacity == 0) {
-      // menuElem.style.display = "block";
-      menuElem.style.opacity = 1;
+    if (menuElem.style.display == "none") {
+      menuElem.style.display = "block";
       menuElem.classList.add('animate__animated', 'animate__slideInLeft');
       menuElem.classList.remove('animate__slideOutLeft');
+      burgerElem.classList.add('is-active');
     } else {
-      // menuElem.style.display = "none";
       menuElem.classList.add('animate__slideOutLeft');
       menuElem.classList.remove('animate__slideInLeft');
-      menuElem.style.opacity = 0;
+      burgerElem.classList.remove('is-active');
+      setTimeout(function () {
+        menuElem.style.display = "none";
+      }, 500);
     }
+
+    clearTimeout();
   });
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (burger);
+
+/***/ }),
+
+/***/ "./src/js/filter.js":
+/*!**************************!*\
+  !*** ./src/js/filter.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const filter = () => {
+  const menu = document.querySelector('.portfolio__menu'),
+        items = menu.querySelectorAll('li'),
+        btnAll = menu.querySelector('.all'),
+        btnLanding = menu.querySelector('.landing'),
+        btnStore = menu.querySelector('.store'),
+        btnApp = menu.querySelector('.app'),
+        wrapper = document.querySelector('.portfolio__wrapper'),
+        markAll = wrapper.querySelectorAll('.all'),
+        markLanding = wrapper.querySelectorAll('.landing'),
+        markStore = wrapper.querySelectorAll('.store'),
+        markApp = wrapper.querySelectorAll('.app'),
+        no = document.querySelector('.portfolio__no');
+  /* Фильтрация элементов */
+
+  const typeFilter = markType => {
+    markAll.forEach(mark => {
+      mark.style.display = 'none';
+      mark.classList.remove('animate__animated', 'animate__fadeIn');
+    });
+    no.style.display = 'none';
+    no.classList.remove('animate__animated', 'animate__fadeIn');
+
+    if (markType) {
+      markType.forEach(mark => {
+        mark.style.display = 'block';
+        mark.classList.add('animate__animated', 'animate__fadeIn');
+      });
+    } else {
+      no.style.display = 'block';
+      no.classList.add('animate__animated', 'animate__fadeIn');
+    }
+  };
+
+  btnAll.addEventListener('click', () => {
+    typeFilter(markAll);
+  });
+  btnLanding.addEventListener('click', () => {
+    typeFilter(markLanding);
+  });
+  btnStore.addEventListener('click', () => {
+    typeFilter(markStore);
+  });
+  btnApp.addEventListener('click', () => {
+    typeFilter(markApp);
+  });
+  menu.addEventListener('click', e => {
+    let target = e.target;
+
+    if (target && target.tagName == "LI") {
+      items.forEach(btn => btn.classList.remove('active'));
+      target.classList.add('active');
+    }
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (filter);
 
 /***/ }),
 
@@ -135,6 +207,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _progress_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./progress-bar */ "./src/js/progress-bar.js");
 /* harmony import */ var _scrolling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./scrolling */ "./src/js/scrolling.js");
 /* harmony import */ var _burger__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./burger */ "./src/js/burger.js");
+/* harmony import */ var _filter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./filter */ "./src/js/filter.js");
+
 
 
  // window.onload = function() {
@@ -147,6 +221,7 @@ window.addEventListener('DOMContentLoaded', () => {
   Object(_progress_bar__WEBPACK_IMPORTED_MODULE_0__["default"])();
   Object(_scrolling__WEBPACK_IMPORTED_MODULE_1__["default"])('.pageup');
   Object(_burger__WEBPACK_IMPORTED_MODULE_2__["default"])('.menu', '.nav__trigger');
+  Object(_filter__WEBPACK_IMPORTED_MODULE_3__["default"])();
 });
 
 /***/ }),
@@ -185,7 +260,7 @@ const scrolling = upSelector => {
   /* Появление стрелки вверх */
   const upElem = document.querySelector(upSelector);
   window.addEventListener('scroll', () => {
-    if (document.documentElement.scrollTop > 500) {
+    if (document.documentElement.scrollTop > 1000) {
       upElem.classList.add('animate__animated', 'animate__fadeIn');
       upElem.classList.remove('animate__fadeOut');
     } else {
@@ -196,7 +271,7 @@ const scrolling = upSelector => {
   /* Скролл при помощи requestAnimationFrame */
 
   let links = document.querySelectorAll('[href^="#"]'),
-      speed = 0.3;
+      speed = 0.15;
   links.forEach(link => {
     link.addEventListener('click', function (event) {
       event.preventDefault();
