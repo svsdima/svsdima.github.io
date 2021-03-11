@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gotham Pro';
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    color: black;
+    text-shadow: 1px 1px 1px #fff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in;
+}
+
+#time {
+    font-size: 120px;
+}
+
+#date {
+    font-size: 50px;
+}
+
+#week {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#focus {
+    /* opacity: 0; */
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.degree-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperature-degree {
+    opacity: 1;
+}
+
+.degree-section span {
+    /* margin: 5px; */
+    font-size: 35px;
+}
+
+.degree-section h2 {
+    margin: 5px 0;
+    font-size: 40px;
+}
+
+.temperature-description {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.temperature-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.temperature-degree {
+    font-weight: 300;
+}
+
+.temperature-degree span {
+    font-weight: 300;
+}
+
+.location-icon {
+    height: 100%;
+}
+
+.location-timezone {
+    margin: 0;
+    font-weight: 300;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+
+@media(max-width: 700px) {
+    #time {
+        font-size: 100px;
+    }
+}
