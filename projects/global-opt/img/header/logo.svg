@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 96 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Слой1">
+        <path d="M60.952,20.138C60.952,20.138 73.027,20.971 69.019,30.963C67.72,34.204 67.82,26.241 66.65,24.762C64.211,21.68 60.952,20.138 60.952,20.138Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+        <path d="M49.554,22.792C49.554,22.792 48.409,19.253 48.878,19.149C49.346,19.045 56.424,16.443 61.577,22.48C66.729,28.517 65.688,29.09 63.919,35.231C62.149,41.373 66.677,20.71 50.907,19.982C48.48,19.87 49.554,22.792 49.554,22.792Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+    </g>
+    <g id="Слой5">
+        <path d="M56.164,26.071C56.164,26.071 60.692,27.789 58.09,31.9C57.541,32.767 56.164,26.071 56.164,26.071Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+        <path d="M60.624,46.88C60.624,46.88 62.771,53.255 67.065,60.411C68.767,63.249 66.731,67.42 66.024,68.283C65.551,68.861 66.467,65.42 65.477,61.189C64.986,59.087 62.52,56 61.794,53.865C60.362,49.649 60.624,46.88 60.624,46.88Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+        <path d="M53.033,37.962C53.033,37.962 52.325,48.662 55.989,55.199C59.653,61.736 52.616,63.673 51.7,63.61C50.784,63.546 56.364,59.633 54.157,55.594C53.328,54.076 51.256,48.254 51.124,45.266C50.904,40.303 53.033,37.962 53.033,37.962Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+    </g>
+    <g id="Слой6">
+        <path d="M40.875,27.986C40.875,27.986 27.295,34.166 26.237,41.811C25.18,49.455 18.919,53.684 18.919,53.684C18.919,53.684 20.371,53.221 22.017,51.719C25.037,48.964 29.103,43.892 28.84,40.103C28.686,37.883 31.544,36.105 33.705,34.131C37.245,30.9 40.875,27.986 40.875,27.986Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+    </g>
+    <g id="Слой7">
+        <path d="M22.826,58.036C22.826,58.036 19.229,59.821 19.282,60.408C19.294,60.544 19.144,61.168 19.316,61.472C19.88,62.475 21.307,63.685 21.307,63.685L22.826,58.036Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+    </g>
+    <g id="Слой8">
+        <path d="M25.179,64.974L36.525,64.714C36.525,64.714 40.221,64.818 41.157,62.996C41.261,62.794 42.713,62.799 43.032,62.811C44.046,62.848 44.54,63.204 44.54,63.204C44.54,63.204 45.269,66.171 42.302,66.743C39.336,67.316 26.324,66.743 26.324,66.743L25.179,64.974Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+        <path d="M27.834,70.022C27.834,70.022 30.083,73.063 31.165,72.781C31.6,72.667 33.136,72.65 34.191,72.752C35.387,72.867 37.033,72.69 37.254,72.573C38.694,71.808 45.737,68.097 45.737,68.097L46.882,68.877C46.882,68.877 44.905,72.989 36.317,74.967C33.914,75.52 31.445,75.068 30.334,74.504C27.473,73.052 27.834,70.022 27.834,70.022Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+        <path d="M46.691,30.804C46.54,30.667 44.546,33.373 41.832,36.392C37.85,40.823 32.202,45.418 32.202,45.418L34.076,45.96L36.74,42.962L37.24,49.082L37.656,49.145L38.073,49.041L39.363,42.504L39.97,41.615L47.274,34.759C47.274,34.759 47.541,34.332 47.494,33.756C47.403,32.659 46.937,31.025 46.691,30.804Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+        <path d="M45.984,39.211C45.984,39.211 46.256,42.359 46.343,42.405C46.563,42.521 46.9,44.165 46.9,44.165L47.025,51.035C47.025,51.035 51.729,51.696 52.187,57.156C52.645,62.616 46.941,53.04 46.941,53.04C46.941,53.04 46.317,51.916 44.36,52.291C42.403,52.665 38.905,54.914 38.905,54.914L37.948,54.123C37.948,54.123 42.653,50.209 44.693,50.875C46.733,51.541 45.359,46.919 45.359,46.919L43.46,43.547L43.829,41.21L45.984,39.211Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+    </g>
+    <g id="Слой2">
+        <path d="M10.706,21.566C10.706,21.566 -11.657,49.313 12.74,78.618" style="fill:none;stroke:rgb(250,250,250);stroke-width:1px;"/>
+        <g>
+            <g transform="matrix(0.925116,-0.666154,0.584345,0.811505,-10.2965,14.5058)">
+                <text x="16.202px" y="19.697px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">G</text>
+            </g>
+            <g transform="matrix(0.994687,-0.556954,0.488557,0.872532,-7.25503,14.5892)">
+                <text x="22.739px" y="15.097px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">L</text>
+            </g>
+            <g transform="matrix(1.0515,-0.440405,0.38632,0.922365,-6.09488,13.351)">
+                <text x="28.197px" y="12.018px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">O</text>
+            </g>
+            <g transform="matrix(1.10634,-0.274989,0.241218,0.970471,-5.95442,10.0539)">
+                <text x="35.596px" y="8.993px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">B</text>
+            </g>
+            <g transform="matrix(1.13672,-0.0863659,0.0757595,0.997126,-6.40306,3.71828)">
+                <text x="42.811px" y="7.256px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">A</text>
+            </g>
+            <g transform="matrix(1.1274,0.169023,-0.148266,0.988948,-5.39004,-8.41355)">
+                <text x="50.222px" y="6.8px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">L</text>
+            </g>
+            <g transform="matrix(1.05683,0.427453,-0.374959,0.927042,-0.173164,-24.6029)">
+                <text x="59.004px" y="8.481px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">O</text>
+            </g>
+            <g transform="matrix(0.983302,0.576817,-0.50598,0.862545,6.96963,-36.6936)">
+                <text x="66.374px" y="11.584px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">P</text>
+            </g>
+            <g transform="matrix(0.912034,0.683954,-0.59996,0.80003,15.4124,-46.3953)">
+                <text x="72.248px" y="15.096px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:9px;fill:rgb(254,246,246);">T</text>
+            </g>
+        </g>
+        <g>
+            <g transform="matrix(0.910284,0.686282,-0.602001,0.798495,52.247,6.21905)">
+                <text x="15.732px" y="84.444px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">c</text>
+            </g>
+            <g transform="matrix(0.96539,0.606319,-0.531858,0.846833,47.2138,1.4004)">
+                <text x="19.79px" y="87.484px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">o</text>
+            </g>
+            <g transform="matrix(1.01633,0.516405,-0.452987,0.891517,40.5606,-2.85541)">
+                <text x="24.525px" y="90.425px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">n</text>
+            </g>
+            <g transform="matrix(1.05912,0.421745,-0.369952,0.929051,32.6276,-5.85294)">
+                <text x="29.508px" y="92.909px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">s</text>
+            </g>
+            <g transform="matrix(1.09667,0.311314,-0.273083,0.961991,22.57,-7.05643)">
+                <text x="34.237px" y="94.769px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">u</text>
+            </g>
+            <g transform="matrix(1.1197,0.21416,-0.18786,0.982196,13.3305,-6.77309)">
+                <text x="39.625px" y="96.208px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">l</text>
+            </g>
+            <g transform="matrix(1.13046,0.147136,-0.129067,0.991636,6.98451,-5.38736)">
+                <text x="42.111px" y="96.682px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">t</text>
+            </g>
+            <g transform="matrix(1.13899,0.0479089,-0.0420254,0.999117,-2.19028,-2.07568)">
+                <text x="45.116px" y="97.097px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">e</text>
+            </g>
+            <g transform="matrix(1.1369,-0.084056,0.0737333,0.997278,-14.0403,4.48404)">
+                <text x="50.198px" y="97.221px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">l</text>
+            </g>
+            <g transform="matrix(1.12322,-0.194884,0.170951,0.985279,-23.0927,11.7051)">
+                <text x="52.729px" y="97.078px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">o</text>
+            </g>
+            <g transform="matrix(1.09538,-0.315826,0.27704,0.960858,-32.168,22.1434)">
+                <text x="58.206px" y="96.074px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">g</text>
+            </g>
+            <g transform="matrix(1.06898,-0.396095,0.347452,0.937698,-37.2003,31.053)">
+                <text x="63.541px" y="94.452px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">i</text>
+            </g>
+            <g transform="matrix(1.04512,-0.455339,0.39942,0.916768,-40.3559,37.8068)">
+                <text x="65.923px" y="93.59px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">s</text>
+            </g>
+            <g transform="matrix(1.01295,-0.523002,0.458774,0.888553,-42.8983,47.0983)">
+                <text x="70.553px" y="91.515px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">t</text>
+            </g>
+            <g transform="matrix(0.989675,-0.565811,0.496326,0.868136,-43.9678,53.326)">
+                <text x="73.247px" y="90.11px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">i</text>
+            </g>
+            <g transform="matrix(0.956122,-0.620831,0.544589,0.838703,-45.0907,61.1798)">
+                <text x="75.454px" y="88.877px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:8px;fill:rgb(254,246,246);">c</text>
+            </g>
+        </g>
+    </g>
+    <g id="Слой3">
+        <path d="M86.056,22.028C86.056,22.028 106.513,49.31 84.912,78.318" style="fill:none;stroke:rgb(250,250,250);stroke-width:1px;"/>
+    </g>
+    <g id="Слой4">
+        <path d="M70.554,42.141C70.173,40.87 83.896,52.433 74.112,73.653C74.034,73.822 72.78,72.899 72.218,72.608C71.484,72.229 70.246,71.628 70.554,70.858C71.11,69.468 74.983,63.828 74.935,58.056C74.874,50.634 70.768,42.856 70.554,42.141Z" style="fill:white;stroke:rgb(250,250,250);stroke-width:1px;"/>
+    </g>
+</svg>
