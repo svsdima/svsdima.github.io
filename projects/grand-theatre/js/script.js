@@ -131,7 +131,7 @@ __webpack_require__.r(__webpack_exports__);
 window.addEventListener('DOMContentLoaded', () => {
   Object(_aos__WEBPACK_IMPORTED_MODULE_3__["default"])();
   Object(_swiper__WEBPACK_IMPORTED_MODULE_0__["default"])();
-  Object(_menuBurger__WEBPACK_IMPORTED_MODULE_1__["default"])('.menu-btn', '.header__aside', '.menu');
+  Object(_menuBurger__WEBPACK_IMPORTED_MODULE_1__["default"])('.menu-btn', '.header__aside', '.menu', '.social');
   Object(_scrolling__WEBPACK_IMPORTED_MODULE_2__["default"])('.pageup', '.header__aside', '.menu', '.menu-btn');
 });
 
