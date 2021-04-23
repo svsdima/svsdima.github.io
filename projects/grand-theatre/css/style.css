@@ -3537,6 +3537,9 @@ template {
 html {
   box-sizing: border-box; }
 
+h2 {
+  margin: 0; }
+
 *,
 *::before,
 *::after {
@@ -4204,7 +4207,6 @@ body {
     .header__aside .social {
       position: fixed;
       opacity: 0;
-      transition: 0.6s all ease;
       top: initial;
       bottom: 5%;
       left: -80%;
@@ -4247,6 +4249,14 @@ body {
     bottom: 10px; } }
 
 @media (max-width: 900px) {
+  .about,
+  .productions,
+  .best,
+  .partners,
+  .contact {
+    padding-top: 60px; }
+  .partners {
+    padding-bottom: 60px; }
   .header {
     height: inherit; }
     .header__wrapper {
